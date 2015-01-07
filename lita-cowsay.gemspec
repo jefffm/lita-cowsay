@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-cowsay"
-  spec.version       = "0.0.1"
+  spec.version       = "0.1.0"
   spec.authors       = ["Jeff Mueller"]
   spec.email         = ["jeff.mueller89@gmail.com"]
   spec.description   = %q{A Lita handler that formats text with cowsay}
@@ -15,12 +15,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 4.0"
+  spec.add_runtime_dependency "ruby_cowsay"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rack-test"
   spec.add_development_dependency "rspec", ">= 3.0.0"
-  spec.add_development_dependency "ruby_cowsay"
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
 end
