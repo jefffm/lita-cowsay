@@ -1,0 +1,7 @@
+en:
+  lita:
+    handlers:
+      cowsay:
+        help:
+          cowsay_key: "cowsay TEXT"
+          cowsay_value: "Format TEXT using cowsay"
