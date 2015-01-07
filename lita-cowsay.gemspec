@@ -3,8 +3,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Jeff Mueller"]
   spec.email         = ["jeff.mueller89@gmail.com"]
-  spec.description   = %q{Echos text back formatted with cowsay}
-  spec.summary       = %q{Lita cowsay plugin}
+  spec.description   = %q{A Lita handler that formats text with cowsay}
+  spec.summary       = %q{Lita cowsay handler}
   spec.homepage      = "https://github.com/jefffm/lita-cowsay"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
