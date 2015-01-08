@@ -1,5 +1,6 @@
 # lita-cowsay
 
+[![Coverage Status](https://img.shields.io/coveralls/jefffm/lita-cowsay.svg)](https://coveralls.io/r/jefffm/lita-cowsay?branch=master)
 ![Travis CI status](https://travis-ci.org/jefffm/lita-cowsay.svg?branch=master)
 [![Gem Version](https://badge.fury.io/rb/lita-cowsay.svg)](http://badge.fury.io/rb/lita-cowsay)
 
