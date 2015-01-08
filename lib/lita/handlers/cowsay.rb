@@ -8,7 +8,7 @@ module Lita
       })
 
       def cowsay(response)
-        text = response.args.join(' ')
+        text = response.args.join(" ")
         response.reply Cow.new.say(text)
       end
     end
