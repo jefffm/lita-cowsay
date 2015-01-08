@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-cowsay"
-  spec.version       = "0.0.1"
+  spec.version       = "0.1.1"
   spec.authors       = ["Jeff Mueller"]
   spec.email         = ["jeff.mueller89@gmail.com"]
   spec.description   = %q{A Lita handler that formats text with cowsay}
