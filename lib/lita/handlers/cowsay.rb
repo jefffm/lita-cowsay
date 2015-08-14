@@ -9,7 +9,7 @@ module Lita
 
       def cowsay(response)
         text = response.args.join(" ")
-        response.reply Cow.new.say(text)
+        response.reply render_template("monospaced", cowsay: Cow.new.say(text))
       end
     end
 
